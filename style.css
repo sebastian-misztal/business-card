@@ -31,6 +31,15 @@ body {
 .person__description {
     font-size: 16px;
     line-height: 22px;
+    margin: 0;
+}
+
+.person__description--with-margin {
+    margin-bottom: 22px;
+}
+
+.person__info {
+    margin-bottom: 24px;
 }
 
 .person__name {
@@ -44,6 +53,10 @@ body {
     font-style: italic;
     color: #545454;
     margin: 0;
+}
+.person__link {
+    color: #e20613;
+    text-decoration: none;
 }
 
 .special {
